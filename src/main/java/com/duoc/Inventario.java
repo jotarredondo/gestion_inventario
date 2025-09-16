@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Inventario {
-
     private HashMap<String, Producto> productos;
 
     public Inventario() {
@@ -39,6 +38,4 @@ public class Inventario {
     public ArrayList<Producto> listarTodos() {
         return new ArrayList<>(productos.values());
     }
-
-
 }

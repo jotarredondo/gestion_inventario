@@ -7,7 +7,6 @@ public class MenuPrincipal {
         Scanner sc = new Scanner(System.in);
         Inventario inventario = new Inventario();
         int opcion;
-
         do {
             System.out.println("\n--- Menú Principal ---");
             System.out.println("1. Agregar producto");
